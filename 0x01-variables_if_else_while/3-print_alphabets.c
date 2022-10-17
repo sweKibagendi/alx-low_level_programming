@@ -5,10 +5,7 @@
  *
  * Description: ch var to hold int value of char
  * Return: Always 0 (success)
- */
-int main(void)
-{
-/**
+ *
  * START
  * Declare ch variable
  * FOR LOOP
@@ -24,6 +21,8 @@ int main(void)
  * empty line with putchar
  * STOP
  */
+int main(void)
+{
 	int ch;
 
 	for (ch = 97; ch <= 122; ch++)
