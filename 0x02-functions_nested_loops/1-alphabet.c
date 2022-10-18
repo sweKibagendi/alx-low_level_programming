@@ -19,6 +19,6 @@ auto int ch = 97;
 do {
 	_putchar(ch);
 	ch++;
-} while (ch < 122);
+} while (ch <= 122);
 _putchar('\n');
 }
