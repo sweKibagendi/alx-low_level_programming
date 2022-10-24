@@ -4,11 +4,12 @@
  * print_numbers - prints numbers from 0 to 9
  *
  * START
- * Declare auto int variable counter
- * Initialize counter to 0
- * WHILE counter is less than 10
- * THEN print counter
- * increment counter
+ * Declare auto int variable n
+ * FOR
+ * Initialize n to 0
+ * n upper limit is less than 10
+ * increment n
+ * print n
  * print newline
  */
 void print_numbers(void)
