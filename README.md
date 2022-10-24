@@ -1,1 +1,1 @@
-Basics of C-_lang and advanced algorithms and structures 
+Basics of C_lang and advanced algorithms and structures
