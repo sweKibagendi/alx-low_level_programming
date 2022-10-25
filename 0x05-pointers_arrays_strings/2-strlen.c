@@ -3,7 +3,7 @@
 /**
  * _strlen - gets the length of a string
  * @s: pointer to string
- * return: length of the string
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen(char *s)
 
 	i += 1;
 
-	return i;
+	return (i);
 }
