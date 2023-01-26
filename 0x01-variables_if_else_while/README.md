@@ -1,0 +1,1 @@
+0-positive_or_negative.c - Prints whether number generated is positive, negative or zero
