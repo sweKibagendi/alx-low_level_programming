@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  * Description: Prints _putchar
@@ -15,16 +15,16 @@ int main(void)
 	 * Print char at index i
 	 */
 
-	char _putchar[] = "_putchar";
+	char ch[] = "_putchar";
 	int i;
 
 	i = 0;
-	while (_putchar[i] != '\0')
+	while (ch[i] != '\0')
 	{
-		putchar(_putchar[i]);
+		_putchar(ch[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 
 }
